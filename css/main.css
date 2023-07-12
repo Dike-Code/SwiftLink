@@ -213,11 +213,6 @@ section {
    padding-left: 5px;
 }
 
-.case-image {
-   width: 650px;
-   object-fit: cover;
-}
-
 /* About */
 .about {
    width: 100%;
@@ -243,14 +238,15 @@ section {
    font-weight: 500;
 }
 
-.about-img {
+.about-image {
    width: 600px;
    min-height: 100%;
 }
 
-.about-img img {
+.about-image img {
    width: 600px;
    object-fit: cover;
+   transition: 0.5s ease;
 }
 
 /* Features Section */
@@ -333,7 +329,7 @@ section {
    padding: 20px;
 }
 
-.link-overlay:hover {
+.link-items:hover .link-overlay {
    width: 100%;
    opacity: 1;
    transform: scale(1.1);
@@ -493,17 +489,19 @@ input[type='email'] {
    .nav-sections {
       position: fixed;
       width: 100%;
-      height: 50vh;
-      top: -1000px;
-      left: 0;
+      height: 100vh;
+      top: 0;
+      left: -1000px;
       opacity: 0;
       z-index: -1;
+      transition: 0.3s ease-in-out;
    }
 
    .nav-sections.show {
       position: fixed;
       width: 100%;
       top: 0;
+      left: 0;
       height: 100vh;
       opacity: 1;
       background: rgba(40, 45, 66, 0.9);

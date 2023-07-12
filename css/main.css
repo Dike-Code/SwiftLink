@@ -574,16 +574,21 @@ input[type='email'] {
 
    .case-link-1 {
       margin: 10px 0;
-      padding: 20px 50px;
+      padding: 20px 55px;
    }
 
    .case-link-2 {
       margin: 10px 0;
-      padding: 20px 30px;
+      padding: 20px 35px;
    }
 
-   .feature-card{
+   .feature-card {
       padding: 10px;
+   }
+
+   .contact-title,
+   .contact-txt {
+      text-align: center;
    }
 
    .about .container,

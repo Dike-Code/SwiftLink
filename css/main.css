@@ -584,6 +584,17 @@ input[type='email'] {
       font-size: 10px;
    }
 
+   .case-link-1:hover .case-icon,
+   .case-link-2:hover .case-icon {
+      transition: 0.5s ease;
+      padding-left: 0px;
+   }
+
+   .case-icon {
+      transition: 0.5s ease;
+      padding-left: 2px;
+   }
+
    .feature-card {
       padding: 20px 10px;
    }

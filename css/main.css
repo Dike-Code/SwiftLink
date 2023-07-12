@@ -574,16 +574,16 @@ input[type='email'] {
 
    .case-link-1 {
       margin: 10px 0;
-      padding: 20px 55px;
+      padding: 20px 45px;
    }
 
    .case-link-2 {
       margin: 10px 0;
-      padding: 20px 35px;
+      padding: 20px 25px;
    }
 
    .feature-card {
-      padding: 10px;
+      padding: 20px 10px;
    }
 
    .contact-title,
@@ -608,6 +608,18 @@ input[type='email'] {
    .footer .brand-logo {
       margin: 20px 0;
       text-align: center;
+   }
+}
+
+@media (max-width: 375px) {
+   .case-link-1 {
+      margin: 10px 0;
+      padding: 20px 40px;
+   }
+
+   .case-link-2 {
+      margin: 10px 0;
+      padding: 20px 20px;
    }
 }
 

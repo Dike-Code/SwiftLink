@@ -616,7 +616,7 @@ input[type='email'] {
 @media (max-width: 375px) {
    .case-btn {
       flex-direction: column;
-      gap: 20px;
+      gap: 10px;
    }
 
    .case-link-1 {

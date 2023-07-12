@@ -575,24 +575,13 @@ input[type='email'] {
    .case-link-1 {
       margin: 10px 0;
       padding: 20px 30px;
-      font-size:10px;
+      font-size: 10px;
    }
 
    .case-link-2 {
       margin: 10px 0;
       padding: 20px 25px;
       font-size: 10px;
-   }
-
-   .case-link-1:hover .case-icon,
-   .case-link-2:hover .case-icon {
-      transition: 0.5s ease;
-      padding-left: 0px;
-   }
-
-   .case-icon {
-      transition: 0.5s ease;
-      padding-left: 2px;
    }
 
    .feature-card {
@@ -625,6 +614,11 @@ input[type='email'] {
 }
 
 @media (max-width: 375px) {
+   .case-btn {
+      flex-direction: column;
+      gap: 20px;
+   }
+
    .case-link-1 {
       margin: 10px 0;
       padding: 20px 40px;

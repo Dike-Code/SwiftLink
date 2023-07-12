@@ -11,6 +11,13 @@
          content="SwiftLink is a non-profit organization that fetches for Global brand with a functional website and brings them to together for easy access"
       />
       <link rel="stylesheet" href="./css/main.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
       <title>SwiftLink</title>
    </head>
    <body>
@@ -20,22 +27,27 @@
                <div class="brand-logo">
                   <a href="index.html"><h1>SwiftLink</h1></a>
                </div>
+               <div class="menu">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+               </div>
                <div class="nav-sections">
                   <ul class="nav-list">
                      <li class="nav-items"
-                        ><a href="/" class="nav-links">Home</a></li
+                        ><a href="index.html" class="nav-links">Home</a></li
                      >
                      <li class="nav-items"
-                        ><a href="/" class="nav-links">About</a></li
+                        ><a href="#about" class="nav-links">About</a></li
                      >
                      <li class="nav-items"
-                        ><a href="/" class="nav-links">How it Works</a></li
+                        ><a href="#features" class="nav-links">Features</a></li
                      >
                      <li class="nav-items"
-                        ><a href="/" class="nav-links">Links</a></li
+                        ><a href="#links" class="nav-links">Links</a></li
                      >
                   </ul>
-                  <a href="" class="contact-btn">Contact Us</a>
+                  <a href="#contact" class="contact-btn">Contact Us</a>
                </div>
             </div>
          </div>
@@ -43,89 +55,280 @@
             <div class="container">
                <div class="case-content">
                   <h1 class="case-title"> Quick and Easy Access </h1>
-                  <h2 class="case-sub-tit">
-                    to Globals Links
-                  </h2>
-                  <p class="case-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure voluptatem sed minima numquam, ducimus delectus itaque odio nesciunt dolorem eveniet aliquid similique eius reprehenderit veniam ea tempora dicta vel?</p>
+                  <h2 class="case-sub-tit"> to Globals Links </h2>
+                  <p class="case-txt"
+                     >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Suscipit iure voluptatem sed minima numquam, ducimus
+                     delectus itaque odio nesciunt dolorem eveniet aliquid
+                     similique eius reprehenderit veniam ea tempora dicta
+                     vel?</p
+                  >
                   <div class="case-btn">
-                      <a href="" class="case-link-1 btn">Explore</a>
-                      <a href="" class="case-link-2 btn">Get Started</a>
+                     <a href="#links" class="case-link-1 btn">Explore</a>
+                     <a href="" class="case-link-2 btn">Get Started</a>
                   </div>
-                 
                </div>
-               <!-- <div class="case-image">
-              <img src="./images/connected-world.png" alt="" class="case-img rotate" alt="space-image">
-            </div> -->
-          </div>
+            </div>
          </div>
       </header>
+
       <!-- About -->
-      <section class="about">
+      <section class="about" id="about">
          <div class="container">
             <div class="about-content">
                <h2 class="about-title">About Us</h2>
                <p class="about-txt">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dicta distinctio hic error esse laborum saepe veniam libero rem ut impedit ab nostrum quas eius eveniet quam repellendus, incidunt quibusdam facere quod! Illum, enim. Expedita corporis nulla eum unde culpa!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia dicta distinctio hic error esse laborum saepe veniam
+                  libero rem ut impedit ab nostrum quas eius eveniet quam
+                  repellendus, incidunt quibusdam facere quod! Illum, enim.
+                  Expedita corporis nulla eum unde culpa!
                </p>
                <p class="about-txt">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dicta distinctio hic error esse laborum saepe veniam libero rem ut impedit ab nostrum quas eius eveniet quam repellendus, incidunt quibusdam facere quod! Illum, enim. Expedita corporis nulla eum unde culpa!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia dicta distinctio hic error esse laborum saepe veniam
+                  libero rem ut impedit ab nostrum quas eius eveniet quam
+                  repellendus, incidunt quibusdam facere quod! Illum, enim.
+                  Expedita corporis nulla eum unde culpa!
                </p>
                <p class="about-txt">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dicta distinctio hic error esse laborum saepe veniam libero rem ut impedit ab nostrum quas eius eveniet quam repellendus, incidunt quibusdam facere quod! Illum, enim. Expedita corporis nulla eum unde culpa!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia dicta distinctio hic error esse laborum saepe veniam
+                  libero rem ut impedit ab nostrum quas eius eveniet quam
+                  repellendus, incidunt quibusdam facere quod! Illum, enim.
+                  Expedita corporis nulla eum unde culpa!
                </p>
             </div>
             <div class="about-image">
-              <img src="./images/connected-world.png" alt="" class="case-img rotate" alt="space-image">
+               <img
+                  src="./images/conneted-world.png"
+                  alt=""
+                  class="case-img rotate"
+                  alt="space-image"
+               />
             </div>
          </div>
       </section>
+
       <!-- Feature -->
-      <section class="features">
+      <section class="features" id="features">
          <div class="container">
             <h2 class="feature-head">Features</h2>
             <div class="features-content">
                <div class="feature-card">
                   <h3 class="feature-title">Quick link Access</h3>
-                  <p class="feature-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos inventore explicabo quisquam praesentium nostrum dolorem unde. Exercitationem voluptatem nulla iusto quidem, possimus, praesentium commodi id ullam fugit esse earum aperiam.</p>
+                  <p class="feature-txt"
+                     >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Dignissimos inventore explicabo quisquam praesentium
+                     nostrum dolorem unde. Exercitationem voluptatem nulla iusto
+                     quidem, possimus..</p
+                  >
+                  <a href="" class="feature-btn btn">Explore</a>
                </div>
                <div class="feature-card">
                   <h3 class="feature-title">Custom Link</h3>
-                  <p class="feature-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quos, aperiam adipisci inventore earum odit quis modi non ad recusandae quasi quo aliquam quisquam tempora optio, velit provident praesentium minus?</p>
+                  <p class="feature-txt"
+                     >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Veniam quos, aperiam adipisci inventore earum odit quis
+                     modi non ad recusandae quasi quo aliquam quisquam tempora
+                     optio, velit provident praesentium minus?</p
+                  >
+                  <a href="" class="feature-btn btn">Explore</a>
                </div>
             </div>
          </div>
       </section>
       <!--Links -->
-      <section class="global-links">
+      <section class="global-links" id="links">
          <div class="container">
             <h2 class="global-head">Global Links</h2>
             <div class="global-content">
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/Amazon.png" alt=""></a>
+                  <img src="./images/link-img/Amazon.png" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Amazon</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/Apple.jpeg" alt=""></a>
+                  <img src="./images/link-img/Apple.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Apple</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/Gn-E.jpeg" alt=""></a>
+                  <img src="./images/link-img/Gn-E.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Genetic Electronic</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/IBM.jpeg" alt=""></a>
+                  <img src="./images/link-img/IBM.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">IBM</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/JJ.png" alt=""></a>
+                  <img src="./images/link-img/JJ.png" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">J &amp; J</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/nestle.jpeg" alt=""></a>
+                  <img src="./images/link-img/nestle.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Nestle`</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/p-and-g.jpeg" alt=""></a>
+                  <img src="./images/link-img/p-and-g.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Pedal and Gamble</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
                <div class="link-items">
-                  <a href="" class="links"><img src="./images/link-img/Walmart.jpeg" alt=""></a>
+                  <img src="./images/link-img/Walmart.jpeg" alt="" />
+                  <div class="link-overlay">
+                     <h4 class="link-tit">Walmart</h4>
+                     <p class="link-txt"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quo, culpa.</p
+                     >
+                     <a href="" class="link-btn btn">Open</a>
+                  </div>
                </div>
             </div>
          </div>
       </section>
+      <!-- contact -->
+      <section id="contact" class="contact">
+         <div class="container">
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-txt"
+               >Feel free to reach out for more informarions or make a request
+               to add custom web-links related substantial brands</p
+            >
+            <form action="" class="contact-form">
+               <div class="row-50">
+                  <div class="form-control">
+                     <label for="name"
+                        >Name:<span class="arsteris">*</span></label
+                     >
+                     <div class="form-input">
+                        <input
+                           type="text"
+                           name="name"
+                           id="name"
+                           placeholder="John Doe"
+                        />
+                     </div>
+                  </div>
+                  <div class="form-control">
+                     <label for="email"
+                        >Email:<span class="arsteris">*</span></label
+                     >
+                     <div class="form-input">
+                        <input
+                           type="email"
+                           name="email"
+                           id="email"
+                           placeholder="johndoe@email.com"
+                        />
+                     </div>
+                  </div>
+               </div>
+               <div class="row-100">
+                  <div class="form-control">
+                     <label for="phone">Phone:</label>
+                     <div class="form-input">
+                        <input
+                           type="text"
+                           name="phone"
+                           id="phone"
+                           placeholder="+234-000 @WhatsApp"
+                        />
+                     </div>
+                  </div>
+               </div>
+               <div class="row-100">
+                  <textarea
+                     name="message"
+                     id="message"
+                     placeholder="Message"
+                  ></textarea>
+               </div>
+            </form>
+         </div>
+         <div class="contact-overlay"></div>
+      </section>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-content">
+               <p class="copy"
+                  ><span>&copy;</span> Copyright
+                  <script>
+                     document.write(new Date().getFullYear());
+                  </script></p
+               >
+               <p class="author"
+                  ><span>&hearts;</span> Developed with by Dike Clinton</p
+               >
+            </div>
+            <ul class="social">
+               <li class="social-items">
+                  <a href="" class="social-links"
+                     ><i class="fab fa-linkedin fa-1x"></i
+                  ></a>
+               </li>
+               <li class="social-items">
+                  <a href="" class="social-links"
+                     ><i class="fab fa-twitter fa-1x"></i
+                  ></a>
+               </li>
+               <li class="social-items">
+                  <a href="" class="social-links"
+                     ><i class="fab fa-github fa-1x"></i
+                  ></a>
+               </li>
+            </ul>
+            <div class="brand-logo">
+               <a href="index.html"><h1>SwiftLink</h1></a>
+            </div>
+         </div>
+      </footer>
    </body>
 </html>

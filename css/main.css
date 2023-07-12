@@ -243,12 +243,6 @@ section {
    min-height: 100%;
 }
 
-.about-image img {
-   width: 600px;
-   object-fit: cover;
-   transition: 0.5s ease;
-}
-
 /* Features Section */
 .features {
    width: 100%;

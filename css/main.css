@@ -582,6 +582,10 @@ input[type='email'] {
       padding: 20px 30px;
    }
 
+   .feature-card{
+      padding: 10px;
+   }
+
    .about .container,
    .features-content,
    .global-content,

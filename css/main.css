@@ -584,7 +584,7 @@ input[type='email'] {
    }
 
    .link-txt {
-      max-width: 300px;
+      max-width: 100%;
       font-size: 12px;
       color: var(--tint1);
    }

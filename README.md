@@ -6,4 +6,4 @@
 
 ![SwiftLink MVP](/images/SwiftyLink-Mvp.jpg?raw=true 'SwiftLink MvP')
 
-<p>Alx Portfolio project Week 2</p>
+<p>Alx Portfolio project</p>

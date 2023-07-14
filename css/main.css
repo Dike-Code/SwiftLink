@@ -583,6 +583,17 @@ input[type='email'] {
       padding: 20px 10px;
    }
 
+   .link-txt {
+      max-width: 300px;
+      font-size: 12px;
+      color: var(--tint1);
+   }
+
+   .link-btn {
+      padding: 10px 45px;
+      background: var(--Fireenginered);
+   }
+
    .contact-title,
    .contact-txt {
       width: 100%;

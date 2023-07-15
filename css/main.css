@@ -430,6 +430,18 @@ input[type='email'] {
    color: var(--Cadet);
 }
 
+.form-btn {
+   border: 0;
+   background: var(--Fireenginered);
+   outline: 0;
+   padding: 20px 80px;
+   transition: 0.3s ease;
+}
+.form-btn:hover {
+   background: var(--Pantone);
+   transform: scale(0.98);
+}
+
 /* footer Section*/
 .footer {
    background: var(--French-gray1);

@@ -55,6 +55,10 @@ section {
    border-radius: 5px;
 }
 
+.arsteris {
+   color: var(--Fireenginered);
+}
+
 .container {
    max-width: 1300px;
    margin: auto;
@@ -607,7 +611,8 @@ input[type='email'] {
    }
 
    .contact-title,
-   .contact-txt {
+   .contact-txt,
+   .form-btn {
       width: 100%;
       margin: auto;
       text-align: center;
